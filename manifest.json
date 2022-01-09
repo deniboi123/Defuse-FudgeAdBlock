@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2, // or 3 idk?
+
+  "name": "Detect FudgeAdBlock",
+  "description": "This extension will disable FudgeAdBlock",
+  "version": "1.0",
+  
+   "content_scripts": [
+     {
+       "matches": ["*://*.*.*"],
+       "js": ["ez.js"]
+     }
+   ],
+}

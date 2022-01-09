@@ -1,5 +1,5 @@
 // Yes Sir
 var script = document.createElement('script');
-script.innerHTML = "fuckAdBlock = nil"
+script.innerHTML = "function adBlockDetected() {}"
 document.head.appendChild(script);
 
